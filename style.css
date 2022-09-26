@@ -18,8 +18,10 @@ body {
     justify-content: space-between;
     align-items: center;
     gap:5px;
-    margin: auto;
-    margin-top:20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
     font-size: 17px;
     font-weight: bold;
     letter-spacing: 5px;
@@ -135,8 +137,10 @@ h1.animation {
         justify-content: space-between;
         align-items: center;
         gap:5px;
-        margin: auto;
-        margin-top:20px;
+         position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
         font-size: 17px;
         font-weight: bold;
         letter-spacing: 5px;
