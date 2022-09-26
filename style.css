@@ -1,0 +1,231 @@
+@media only screen and (min-width:480px) {
+
+body {
+    text-align: center;
+    box-sizing: border-box;
+    background:linear-gradient(to right,#F8333C, #FCAB10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#formcontainer > form {
+    height: fit-content;
+    width: fit-content;
+    padding:20px;
+    background-color: #44AF69;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+    margin: auto;
+    margin-top:20px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 50px black;
+    animation:animate infinite 2500ms ease-in-out
+    
+}
+
+#formcontainer > form > input {
+    height:30px;
+    width:250px;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#formcontainer > form > input:focus {
+    outline: none;
+}
+
+button {
+    margin: auto;
+    margin-top: 20px;
+    font-size: 17px;
+    border: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-radius: 3px;
+}
+
+button:hover {
+    transition:600ms ease-in-out;
+    background:linear-gradient(to right,#F8333C, #FCAB10);
+    cursor: pointer;
+}
+
+a {
+    margin: auto;
+    margin-top: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(0px);
+    }
+
+    25% {
+     
+        transform: translateX(5px)
+    }
+
+    50% {
+       
+        transform: translateX(0px);
+        
+    }
+
+    75% {
+       
+        transform: translateX(5px);
+    }
+
+    100% {
+       
+        transform: translateX(0px);
+    }
+
+
+
+}
+
+h1.animation {
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media only screen and (max-width:480px) {
+
+    body {
+        text-align: center;
+        box-sizing: border-box;
+        background:linear-gradient(to right,#F8333C, #FCAB10);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin:0;
+        padding:0;
+    }
+    
+    
+    #formcontainer > form {
+        height: fit-content;
+        width: fit-content;
+        padding:20px;
+        background-color: #44AF69;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap:5px;
+        margin: auto;
+        margin-top:20px;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        border-radius: 3px;
+        box-shadow: 0 0 50px black;
+        animation:animate infinite 2500ms ease-in-out
+        
+    }
+    
+    #formcontainer > form > input {
+        height:30px;
+        width:250px;
+        border-radius: 3px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    #formcontainer > form > input:focus {
+        outline: none;
+    }
+    
+    button {
+        margin: auto;
+        margin-top: 20px;
+        font-size: 17px;
+        border: none;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        border-radius: 3px;
+    }
+    
+    button:hover {
+        transition:600ms ease-in-out;
+        background:linear-gradient(to right,#F8333C, #FCAB10);
+        cursor: pointer;
+    }
+    
+    a {
+        margin: auto;
+        margin-top: 15px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    @keyframes animate {
+        0% {
+            transform: translateX(0px);
+        }
+    
+        25% {
+         
+            transform: translateX(5px)
+        }
+    
+        50% {
+           
+            transform: translateX(0px);
+            
+        }
+    
+        75% {
+           
+            transform: translateX(5px);
+        }
+    
+        100% {
+           
+            transform: translateX(0px);
+        }
+    
+    
+    
+    }
+    
+    h1.animation {
+        text-align: center;
+        font-size:2.8rem;
+        letter-spacing: 5px;
+        
+    }
+    
+    }
